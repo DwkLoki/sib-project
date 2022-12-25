@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* height: 100vh; */
+    height: 587px;
+    font-family: 'Poppins', sans-serif;
+    background: url(background.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator-card {
+    width: 300px;
+    height: 450px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 15px;
+    padding: 30px;
+    backdrop-filter: blur(7px);
+    box-shadow: 2px 2px 4px 3px rgba(57, 0, 69, 0.4);
+}
+
+.display {
+    height: 20%;
+    font-size: 40px;
+    text-align: end;
+    margin: 3px;
+    overflow: auto;
+}
+
+::-webkit-scrollbar {
+  height: 6px;
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(135, 18, 158, 0.7);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(92, 0, 110, 0.4);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #FFB200;
+}
+
+
+.btn {
+    height: 70%;
+}
+
+.flex-row {
+    display: flex;
+}
+
+.calculator-btn {
+    border: 2px solid rgba(92, 0, 110, 0.4);
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    flex-basis: 25%;
+    text-align: center;
+    margin: 3px;
+    background-color: rgb(135, 18, 158, 0.7);
+    box-shadow: 2px 2px 4px 1px rgba(57, 0, 69, 0.4);
+    color: rgb(39, 0, 39);
+    cursor: pointer;
+}
+
+.double {
+    flex-basis: 55%;
+}
+
+.operator, .clear, .percent, .delete {
+    color: #FFB200;
+}
+
+.calculator-btn:hover {
+    background-color: rgba(92, 0, 110, 0.7);
+}
+
+.equal-btn {
+    border-radius: 20px;
+    background-color: #FFB200;
+    color: rgb(0, 0, 0);
+    border: 2px solid #e19d00;
+}
+
+.equal-btn:hover {
+    background-color: rgb(225, 157, 0, 0.1);
+    color: #FFB200;
+}
