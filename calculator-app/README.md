@@ -1,0 +1,1 @@
+![Calculator Preview](assets/calculator-preview.gif "Calculator Preview")
