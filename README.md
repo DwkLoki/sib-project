@@ -1,2 +1,2 @@
 # sib-project
-Repo kumpulan project di learning path front-end web developer
+Repo kumpulan project latihan saya pada learning path Front-End Web Developer Dicoding Indonesia
